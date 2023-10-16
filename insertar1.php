@@ -20,7 +20,7 @@ $nacimiento = $_POST["nacimiento"];
 
 
 // Consulta SQL para insertar una nueva persona en la tabla
-$sql = "INSERT INTO nombre_de_la_tabla (nombre, apellido, nacimiento) VALUES ('$nombre', '$apellido', '$nacimiento')";
+$sql = "INSERT INTO martes (nombre, apellido, nacimiento) VALUES ('$nombre', '$apellido', '$nacimiento')";
 
 // Ejecutar la consulta
 if ($conn->query($sql) === TRUE) {
