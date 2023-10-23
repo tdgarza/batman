@@ -1,6 +1,6 @@
 body {
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hobbyconsolas.com%2Fnoticias%2Fnuevo-avance-flash-ben-affleck-derrochando-accion-como-batman-1240106&psig=AOvVaw2kJ0pq1d54bjX_kpW4XV_B&ust=1697572739531000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKj72LKt-4EDFQAAAAAdAAAAABAE'); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta de tu imagen de fondo */
-    background-size: cover;
+    background-image: url("batman.jpg");
+     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -64,7 +64,7 @@ h1 {
 }
 
 table {
-    width: 100%;
+    width: 0%;
     border-collapse: collapse;
 }
 
