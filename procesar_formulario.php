@@ -32,7 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                           VALUES ('$nombre', $altura, $peso, '$descripcion', $tipoID)";
 
     if ($conn->query($insertPokemonSQL) === TRUE) {
-        echo "Pokémon agregado correctamente.";
+        // Redirigir al usuario a la página de lista de Pokémon
+        header("Location: mostrar_pokemon.php");
     } else {
         echo "Error: " . $insertPokemonSQL . "<br>" . $conn->error;
     }
