@@ -56,7 +56,6 @@
         die("La conexion a la base de datos fallo: " .$conn->connect_error);
         }
 
-       
         // Consulta SQL para recuperar datos y relaciones
         $sql = "SELECT
                     p.PersonajeID AS PersonajeID,
