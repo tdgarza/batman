@@ -59,7 +59,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Cerrar la conexión a la base de datos
     $conn->close();
 
-    // Redirigir a una página de éxito o mostrar un mensaje
-    echo "Datos guardados con éxito.";
+ // Redirigir a una página de éxito
+ header("Location: insertar_superheroes1.php");
+ exit; // Salir del script después de la redirección
 }
 ?>

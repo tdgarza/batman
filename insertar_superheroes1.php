@@ -71,7 +71,7 @@ body::before {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: url('ruta/a/tu/imagen/batman-bg.jpg') center/cover no-repeat; /* Reemplaza 'ruta/a/tu/imagen/batman-bg.jpg' con la ruta de tu imagen */
+    background: url('batman_01.jpg') center/cover no-repeat; /* Reemplaza 'ruta/a/tu/imagen/batman-bg.jpg' con la ruta de tu imagen */
     opacity: 0.3;
 }
 
