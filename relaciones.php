@@ -48,7 +48,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "marvel";
+        $dbname = "marvel1";
     
         $conn = new mysqli($servername, $username, $password, $dbname);
     //verifica coneccion
@@ -90,7 +90,6 @@
         } else {
             echo "<tr><td colspan='6'>No se encontraron personajes.</td></tr>";
         }
-
         // Cerrar la conexión a la base de datos
         $conn->close();
         ?>
