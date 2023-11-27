@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 
  // Redirigir a una página de éxito
- header("Location: insertar_superheroes1.php");
+ header("Location: relaciones.php");
  exit; // Salir del script después de la redirección
 }
 ?>
